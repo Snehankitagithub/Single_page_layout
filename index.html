@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- header section start-->
+    <section id="header">
+        <div class="header container">
+             <div class="nav-bar">
+                 <div class="brand">
+                    <a href="#hero">BookPod<span>.</span></a>
+                </div>
+                <div class="nav-list">
+                    <div class="menu-left"><span class="humberger" onclick="myFunction()">&#9776</span>
+                    <ul id="menu">
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Service">Categories</a></li>
+                        <li><a href="#projects" data-after="Project">Podcasts</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="search">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder=" Search...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- header section end-->
+
+    <!-- home section start -->
+    <section id="home">
+          <h1>Home of <span>100,000+</span></h1>
+          <h1>books and podcasts</h1><br>
+          <p> Get the latest books and listen to the</p>
+          <p>latest podcasts all in one place</p><br>
+          <button class="btn"><a href="">Get Started</a></button>
+    </section>
+    <!-- home section end -->
+
+    <!-- card section start -->
+    <section id="card">
+        <div class="card-img">
+            <div class="card-content">
+                <h5>LOREM IPSUM</h5>
+                <h2 class="head1">Lorem Ipsum</h2>
+                <h2 class="head2">dolor sit amet</h2>
+                <p class="para1">Lorem ipsum dolor sit amet, consectetur </p>
+                <p class="para1">adipisicing elit, Commodi minima et</p>
+                <p class="para1">accusamus iste quisquam voluptatibus.</p><br>
+
+                <div class="icon-link">
+                    <ul class="icons">
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- card section end -->
+    <!-- feature section start-->
+
+    <section id="feature">
+        <h1>Featured Writers</h1>
+        <div class="writer">
+        <div class="first">
+            <div class="one">
+                <img src="img/e-r-braithwaite.jpg" alt="">
+                <h5>E R Braithwaite</h5>
+            </div>
+
+            <div class="one">
+                <img src="img/levy.jpg" alt="">
+                <h5>Andrea Levy</h5>
+            </div>
+
+            <div class="one">
+                <img src="img/American-novelist-Stephen-King.jpg" alt="">
+                <h5>Stiphen King</h5>
+            </div>
+
+            <div class="one">
+                <img src="img/escritor-Jorge-Amado.jpg" alt="">
+                <h5>Jorge Amedo</h5>
+            </div>
+
+        </div>
+        <div class="second">
+            <div class="two">
+                <img src="img/Gayle-Forman-IHA.jpg" alt="">
+                <h5>Gayle Forman</h5>
+            </div>
+            <div class="two">
+                <img src="img/Shashi Tharoor.jpg" alt="">
+                <h5>Shashi Tharoor</h5>
+            </div>
+            <div class="two">
+                <img src="img/jk-rowling.jpg" alt="">
+                <h5>J.K.Rowling</h5>
+            </div>
+            <div class="two">
+                <img src="img/John Green.jpg" alt="">
+                <h5>John Green</h5>
+            </div>
+        </div>
+        
+    </section>
+     <!-- feature section end -->
+
+     <!-- script start -->
+
+    <script>
+        function myFunction(){
+            var x=document.getElementById("menu");
+            if(x.style.display == "block"){
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+     <!-- script end -->
+   
+    
+
+</body>
+</html>
